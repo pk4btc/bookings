@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"github.com/pk4btc/bookings-app/pkg/config"
-	"github.com/pk4btc/bookings-app/pkg/models"
-	"github.com/pk4btc/bookings-app/pkg/render"
 	"net/http"
+
+	"github.com/pk4btc/bookings-app/pkg/models"
+	"github.com/pk4btc/bookings/pkg/config"
+	"github.com/pk4btc/bookings/pkg/render"
 )
 
 // Repo the repository used by the handlers

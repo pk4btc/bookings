@@ -3,12 +3,13 @@ package render
 import (
 	"bytes"
 	"fmt"
-	"github.com/pk4btc/bookings-app/pkg/config"
-	"github.com/pk4btc/bookings-app/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
+
+	"github.com/pk4btc/bookings/pkg/config"
+	"github.com/pk4btc/bookings/pkg/models"
 )
 
 var functions = template.FuncMap{}

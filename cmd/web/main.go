@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/alexedwards/scs/v2"
-	"github.com/pk4btc/bookings-app/pkg/config"
-	"github.com/pk4btc/bookings-app/pkg/handlers"
-	"github.com/pk4btc/bookings-app/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/alexedwards/scs/v2"
+	"github.com/pk4btc/bookings/pkg/config"
+	"github.com/pk4btc/bookings/pkg/handlers"
+	"github.com/pk4btc/bookings/pkg/render"
 )
 
 const portNumber = ":8080"
