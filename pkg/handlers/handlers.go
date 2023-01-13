@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/pk4btc/bookings-app/pkg/models"
+	"github.com/pk4btc/bookings/pkg/models"
 	"github.com/pk4btc/bookings/pkg/config"
 	"github.com/pk4btc/bookings/pkg/render"
 )
